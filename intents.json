@@ -1,0 +1,51 @@
+{ "intents":[
+  {"tag": "benvenuto",
+  "patterns": ["ciao","hey","bella","buogngiorno","cosa c'è ", "come va"],
+  "responses": ["ciao!","hey!","come posso aiutarti"]},
+  {
+    "tag": "arrivederci",
+    "patterns": ["ciao"," a più tardi", "arrivederci","buonagiornata"],
+    "responses": ["mi dispiace che devi andare parleremo più tardi"]
+  },
+  {"tag": "eta",
+  "patterns": ["quanti anni hai ? ","eta ? "],
+  "responses": ["il mio creatore ha 22 anni ed è un grande"]},
+
+  {"tag": "nome",
+  "patterns": ["come ti chiami ","come posso chiamarti ","chi sei ?"],
+  "responses": ["chiamami Guts","Guts","sono Guts l'assistente di matteo"]},
+
+  {"tag": "shop",
+  "patterns": ["vuoi comprare qualcosa","cosa vendi","cosa mi proponi"],
+  "responses": ["vendo panini "]},
+
+  {"tag": "ore ",
+  "patterns": ["quando apri ","che orari fai ? ","per quanto stai aperto"],
+  "responses": ["24/7"]},
+
+  {"tag": "stocks",
+  "patterns": ["what stocks do I own ?","how are my shares ","what companies "],
+  "responses": ["you own the followings shares: apple, sony"]},
+
+  {"tag": "sara",
+  "patterns": ["chi è la ragazza più bella del mondo ?", "chi è la ragazzo più patatosa del mondo"],
+  "responses": ["è Sara la ragazza più bella e patatosa","la più carina e sara"]},
+
+  {"tag": "musica",
+  "patterns": ["che musica piace a sara?"],
+  "responses": ["la sua musiche preferita è l'hard techno","la sua musica preferita è la tecnho mica la trap "]},
+
+  {"tag": "serie tv",
+  "patterns": ["qual è la serie tv preferita di sara ?"],
+  "responses": ["game of thrones anche se non è molto intrattenetne","game of thrones", " il trono di spade"]},
+
+  {"tag": "serie tv",
+  "patterns": ["qual è la serie tv preferita di sara ?"],
+  "responses": ["game of thrones anche se non è molto intrattenetne","game of thrones", " il trono di spade"]},
+
+  {"tag": "cibo",
+  "patterns": ["qual è il cibo di sara ?"],
+  "responses": ["la pizza ","la pizza speck e brie"]}
+]
+
+}
